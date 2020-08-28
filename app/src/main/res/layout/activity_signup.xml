@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgsignup"
+    tools:context=".auth.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
+                android:text="SIGN IN"
+                android:textColor="#000000"
+                android:textSize="20pt"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="50dp">
+
+                <EditText
+                    android:id="@+id/edtKodeUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Kode User"
+                    android:inputType="text"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="7pt"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@drawable/ic_number"/>
+
+                <EditText
+                    android:id="@+id/edtIdUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Id User"
+                    android:inputType="text"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="7pt"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@drawable/ic_number"/>
+
+                <EditText
+                    android:id="@+id/edtNamaUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Nama User"
+                    android:inputType="text"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="7pt"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@drawable/ic_user"/>
+
+                <EditText
+                    android:id="@+id/edtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="7pt"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@drawable/ic_user"/>
+
+                <EditText
+                    android:id="@+id/edtKontak"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Kontak"
+                    android:inputType="number"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="7pt"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@drawable/ic_kontak"/>
+
+
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="7pt"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@drawable/ic_key"/>
+                <EditText
+                    android:id="@+id/edtRoles"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Roles"
+                    android:inputType="text"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="7pt"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@drawable/ic_roles"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:background="@drawable/style_button"
+                        android:layout_weight="1"
+                        android:id="@+id/btnProsesSignUp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Daftarkan akun"
+                        android:textSize="9pt"
+                        android:textColor="#ffff"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
